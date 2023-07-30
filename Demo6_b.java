@@ -12,12 +12,12 @@ public class Demo6_b {
         String magenF = "\033[35m";  // font magenta color
 
         System.out.printf("%s",blackB);
-        System.out.printf("%s+%15s+%4s+\n",orangeF,"-".repeat(15),"-".repeat(5));
+        System.out.printf("%s+%s+%s+\n",orangeF,"-".repeat(15),"-".repeat(5));
         System.out.printf("|%s%-15s%s|%s%5s%s|\n",blueF," NAME",orangeF,blueF,"AGE ",orangeF);
         System.out.printf("%s+%15s+%5s+\n",orangeF,"-".repeat(15),"-".repeat(5));
         System.out.printf("| %s%-14s%s|%s%4s%s |\n",whiteF,name1,orangeF,magenF,age1,orangeF);
         System.out.printf("| %s%-14s%s|%s%4s%s |\n",whiteF,name2,orangeF,magenF,age2,orangeF);
-        System.out.printf("%s+%15s+%5s+\n",orangeF,"-".repeat(15),"-".repeat(5));
+        System.out.printf("%s+%s+%s+\n",orangeF,"-".repeat(15),"-".repeat(5));
     }
     
 }
