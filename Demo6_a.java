@@ -3,7 +3,7 @@ public class Demo6_a{
 
         String redB  = "\033[101m";   // background red color
         String greenB = "\033[42m";   // background green color
-        String defB = "\033[49m";     //  background black color
+        String defB = "\033[49m";     //  background default color
          
 
     
