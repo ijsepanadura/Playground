@@ -26,7 +26,6 @@ public class Demo4 {
         System.out.printf("%s%d%s%s",color5,minute,defC,sep2);
         System.out.printf("%s%d\n",color6,second);
 
-
-        
+                
     }
 }
